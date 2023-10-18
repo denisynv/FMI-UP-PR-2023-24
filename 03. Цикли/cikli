@@ -1,0 +1,68 @@
+
+#include <iostream>
+#include <cassert>
+/* using namespace std;
+void main()
+{
+	int max = 0, num, min = 0;
+	int i = 0;
+	do {
+		cout << i << "\n";
+		i++;
+	} while (i < 5);
+	{
+		cout << "Enter the number <-1 to end input> ";
+		cin >> num;
+		if (num > max) {
+			max = num;
+		}
+		if (num < min) {
+
+
+			min = num;
+		}
+	}
+	cout << "largest number is: " << max << endl;
+	cout << "smallest number is: " << min << endl;
+
+}
+*/
+
+
+/*
+Zadacha 2
+
+int fib(int n) {
+	assert(n >= 0);
+	if (n <= 1) {
+		return n;
+    }
+	int f0 = 0;
+	int f1 = 1;
+	for (int i = 2; i <= n; i++) {
+		int f2 =  f1 + f0;
+		f0 = f1;
+			f1 = f2;
+	}
+	return f1;
+
+}
+
+int main() {
+	
+	std::cout << fib(6) << std::endl;
+	return 0;
+}
+*/
+
+/*
+int main() {
+	int n, n1=1, k=1;
+	std::cin >> n;
+	for (int i = 0; i < n; i++) {
+		n1 *= k;
+		k++;
+	}
+	std::cout << n1;
+}
+*/
